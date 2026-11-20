@@ -152,7 +152,7 @@ flowchart TB
 | ☁️ | [**クラウド設計クエスト**](https://shoyo-maya-bot.github.io/cloud-quest/) | AWS と Azure のサービス対応と構成設計を、ブラウザで遊びながら覚える |
 | 📝 | [**合格マークシート**](https://shoyo-maya-bot.github.io/goukaku-marksheet/) | AWS 認定（SAA・AI 系）と応用情報の学習サイト。問題 565 問・図解・模擬試験 |
 | 🔍 | [**零課事件簿**](https://shoyo-maya-bot.github.io/reika-jikenbo/) | 毎日の小謎と事件ファイルで遊ぶ、謎解きミステリーサイト |
-| 🖋️ | [**押印上等!!**](https://github.com/shoyo-maya-bot/oin-joutou) | 定時まで 90 秒、降ってくる書類をハンコでさばく決裁アクション |
+| 🖋️ | [**押印上等!!**](https://oin-joutou.hanko-dojo.workers.dev/) | 定時まで 90 秒、降ってくる書類をハンコでさばく決裁アクション |
 
 ---
 
