@@ -43,10 +43,18 @@ motto:     "AI の出力は下書き。仕上げは検査で守る"
   <img src="https://skillicons.dev/icons?i=git,vscode,linux,bash,powershell,md,unity,blender&perline=10&theme=dark" alt="tools">
 </p>
 
+<h3 align="center">🤖 AI ツール</h3>
+
+| 用途 | ツール |
+|---|---|
+| 開発・レビュー | <img src="https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=claude&logoColor=white" alt="Claude"> <img src="https://img.shields.io/badge/Claude_Code-D97757?style=for-the-badge&logo=claude&logoColor=white" alt="Claude Code"> <img src="https://img.shields.io/badge/GitHub_Copilot-24292F?style=for-the-badge&logo=githubcopilot&logoColor=white" alt="GitHub Copilot"> <img src="https://img.shields.io/badge/ChatGPT-10A37F?style=for-the-badge" alt="ChatGPT"> <img src="https://img.shields.io/badge/Codex-10A37F?style=for-the-badge" alt="Codex"> <img src="https://img.shields.io/badge/Gemini-4285F4?style=for-the-badge&logo=googlegemini&logoColor=white" alt="Gemini"> <img src="https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white" alt="Ollama"> |
+| 業務 | <img src="https://img.shields.io/badge/Microsoft_365_Copilot-0078D4?style=for-the-badge" alt="Microsoft 365 Copilot"> |
+| 画像・動画・音楽 | <img src="https://img.shields.io/badge/Nano_Banana-4285F4?style=for-the-badge&logo=googlegemini&logoColor=white" alt="Nano Banana"> <img src="https://img.shields.io/badge/Midjourney-000000?style=for-the-badge" alt="Midjourney"> <img src="https://img.shields.io/badge/Kling-0A0A0A?style=for-the-badge" alt="Kling"> <img src="https://img.shields.io/badge/Hailuo-E2457A?style=for-the-badge&logo=minimax&logoColor=white" alt="Hailuo"> <img src="https://img.shields.io/badge/Suno-000000?style=for-the-badge&logo=suno&logoColor=white" alt="Suno"> |
+
 | 分野 | よく使うもの |
 |---|---|
 | 言語 | Python 3.12 / Java 17 + Spring Boot / TypeScript |
-| AI | Claude・GitHub Copilot（エージェント・プロンプトファイル）・MCP・Ollama（ローカル LLM）・RAG |
+| AI | Claude Code と GitHub Copilot で作り、Codex でレビュー（別の AI どうしで相互レビュー）・MCP・Ollama（ローカル LLM）・RAG |
 | インフラ | Docker Compose（ローカル）・Terraform（AWS / Azure）・GitHub Actions・GitHub Pages・Cloudflare Workers |
 | 品質 | pytest / JUnit・ruff・bandit・pip-audit・CodeQL・gitleaks・依存のハッシュ固定 |
 
