@@ -10,9 +10,9 @@
 </p>
 
 <p align="center">
-  <a href="https://zenn.dev/shoyomayabot"><img src="https://img.shields.io/badge/Zenn-shoyomayabot-3EA8FF?style=for-the-badge&logo=zenn&logoColor=white" alt="Zenn"></a>
-  <a href="https://qiita.com/maya-bot"><img src="https://img.shields.io/badge/Qiita-maya--bot-55C500?style=for-the-badge&logo=qiita&logoColor=white" alt="Qiita"></a>
-  <a href="https://shoyo-maya-bot.github.io/devtools-workspace/armory/"><img src="https://img.shields.io/badge/devtools-%E6%AD%A6%E5%85%B7%E5%B1%8B-f59e0b?style=for-the-badge&logo=githubpages&logoColor=white" alt="devtools 武具屋"></a>
+  <a href="https://zenn.dev/shoyomayabot"><img src="./assets/badges/zenn-shoyomayabot.svg" alt="Zenn"></a>
+  <a href="https://qiita.com/maya-bot"><img src="./assets/badges/qiita-maya-bot.svg" alt="Qiita"></a>
+  <a href="https://shoyo-maya-bot.github.io/devtools-workspace/armory/"><img src="./assets/badges/devtools.svg" alt="devtools 武具屋"></a>
   <img src="https://komarev.com/ghpvc/?username=shoyo-maya-bot&style=for-the-badge&color=0ea5e9&label=VIEWS" alt="views">
 </p>
 
@@ -47,13 +47,13 @@ motto:     "AI の出力は下書き。仕上げは検査で守る"
 
 | 用途 | ツール |
 |---|---|
-| 開発・レビュー | <img src="https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=claude&logoColor=white" alt="Claude"> <img src="https://img.shields.io/badge/Claude_Code-D97757?style=for-the-badge&logo=claude&logoColor=white" alt="Claude Code"> <img src="https://img.shields.io/badge/GitHub_Copilot-24292F?style=for-the-badge&logo=githubcopilot&logoColor=white" alt="GitHub Copilot"> <img src="https://img.shields.io/badge/ChatGPT-10A37F?style=for-the-badge" alt="ChatGPT"> <img src="https://img.shields.io/badge/Codex-10A37F?style=for-the-badge" alt="Codex"> <img src="https://img.shields.io/badge/Gemini-4285F4?style=for-the-badge&logo=googlegemini&logoColor=white" alt="Gemini"> <img src="https://img.shields.io/badge/Cursor-000000?style=for-the-badge&logo=cursor&logoColor=white" alt="Cursor"> <img src="https://img.shields.io/badge/Windsurf-0B100F?style=for-the-badge&logo=windsurf&logoColor=white" alt="Windsurf"> <img src="https://img.shields.io/badge/Devin-1F2937?style=for-the-badge" alt="Devin"> <img src="https://img.shields.io/badge/v0-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="v0"> <img src="https://img.shields.io/badge/Bolt.new-1389FD?style=for-the-badge&logo=stackblitz&logoColor=white" alt="Bolt.new"> <img src="https://img.shields.io/badge/Lovable-FF4F7B?style=for-the-badge" alt="Lovable"> <img src="https://img.shields.io/badge/Unity_MCP-222C37?style=for-the-badge&logo=unity&logoColor=white" alt="Unity MCP"> <img src="https://img.shields.io/badge/Blender_MCP-E87D0D?style=for-the-badge&logo=blender&logoColor=white" alt="Blender MCP"> <img src="https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white" alt="Ollama"> |
-| 調べもの・まとめ | <img src="https://img.shields.io/badge/NotebookLM-4285F4?style=for-the-badge&logo=notebooklm&logoColor=white" alt="NotebookLM"> <img src="https://img.shields.io/badge/Notion_AI-000000?style=for-the-badge&logo=notion&logoColor=white" alt="Notion AI"> <img src="https://img.shields.io/badge/Perplexity-1FB8CD?style=for-the-badge&logo=perplexity&logoColor=white" alt="Perplexity"> <img src="https://img.shields.io/badge/Felo-3B82F6?style=for-the-badge" alt="Felo"> <img src="https://img.shields.io/badge/Genspark-111827?style=for-the-badge" alt="Genspark"> <img src="https://img.shields.io/badge/DeepL-0F2B46?style=for-the-badge&logo=deepl&logoColor=white" alt="DeepL"> <img src="https://img.shields.io/badge/Grok-000000?style=for-the-badge&logo=x&logoColor=white" alt="Grok"> <img src="https://img.shields.io/badge/DeepSeek-4D6BFE?style=for-the-badge&logo=deepseek&logoColor=white" alt="DeepSeek"> |
-| 業務 | <img src="https://img.shields.io/badge/Microsoft_365_Copilot-0078D4?style=for-the-badge" alt="Microsoft 365 Copilot"> <img src="https://img.shields.io/badge/Microsoft_Copilot-0078D4?style=for-the-badge" alt="Microsoft Copilot"> <img src="https://img.shields.io/badge/Copilot_Studio-0078D4?style=for-the-badge" alt="Copilot Studio"> <img src="https://img.shields.io/badge/Azure_OpenAI-0078D4?style=for-the-badge" alt="Azure OpenAI"> <img src="https://img.shields.io/badge/Dify-1C64F2?style=for-the-badge&logo=dify&logoColor=white" alt="Dify"> <img src="https://img.shields.io/badge/OpenRouter-6566F1?style=for-the-badge&logo=openrouter&logoColor=white" alt="OpenRouter"> |
-| 資料・デザイン | <img src="https://img.shields.io/badge/Canva_AI-00C4CC?style=for-the-badge" alt="Canva AI"> <img src="https://img.shields.io/badge/Gamma-7C3AED?style=for-the-badge" alt="Gamma"> <img src="https://img.shields.io/badge/Napkin_AI-111827?style=for-the-badge" alt="Napkin AI"> <img src="https://img.shields.io/badge/Adobe_Firefly-FF0000?style=for-the-badge" alt="Adobe Firefly"> <img src="https://img.shields.io/badge/Figma_AI-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt="Figma AI"> |
-| 画像・3D | <img src="https://img.shields.io/badge/Nano_Banana-4285F4?style=for-the-badge&logo=googlegemini&logoColor=white" alt="Nano Banana"> <img src="https://img.shields.io/badge/Midjourney-000000?style=for-the-badge" alt="Midjourney"> <img src="https://img.shields.io/badge/Tripo-2563EB?style=for-the-badge" alt="Tripo"> |
-| 動画 | <img src="https://img.shields.io/badge/Sora-10A37F?style=for-the-badge" alt="Sora"> <img src="https://img.shields.io/badge/Veo-4285F4?style=for-the-badge&logo=googlegemini&logoColor=white" alt="Veo"> <img src="https://img.shields.io/badge/Runway-000000?style=for-the-badge" alt="Runway"> <img src="https://img.shields.io/badge/Kling-0A0A0A?style=for-the-badge" alt="Kling"> <img src="https://img.shields.io/badge/Hailuo-E2457A?style=for-the-badge&logo=minimax&logoColor=white" alt="Hailuo"> <img src="https://img.shields.io/badge/CapCut-000000?style=for-the-badge&logo=tiktok&logoColor=white" alt="CapCut"> <img src="https://img.shields.io/badge/Vrew-6C5CE7?style=for-the-badge" alt="Vrew"> |
-| 音声・音楽 | <img src="https://img.shields.io/badge/Suno-000000?style=for-the-badge&logo=suno&logoColor=white" alt="Suno"> <img src="https://img.shields.io/badge/ElevenLabs-000000?style=for-the-badge&logo=elevenlabs&logoColor=white" alt="ElevenLabs"> <img src="https://img.shields.io/badge/VOICEVOX-7FB539?style=for-the-badge" alt="VOICEVOX"> <img src="https://img.shields.io/badge/Whisper-10A37F?style=for-the-badge" alt="Whisper"> |
+| 開発・レビュー | <img src="./assets/badges/claude.svg" alt="Claude"> <img src="./assets/badges/claude-code.svg" alt="Claude Code"> <img src="./assets/badges/github-copilot.svg" alt="GitHub Copilot"> <img src="./assets/badges/chatgpt.svg" alt="ChatGPT"> <img src="./assets/badges/codex.svg" alt="Codex"> <img src="./assets/badges/gemini.svg" alt="Gemini"> <img src="./assets/badges/cursor.svg" alt="Cursor"> <img src="./assets/badges/windsurf.svg" alt="Windsurf"> <img src="./assets/badges/devin.svg" alt="Devin"> <img src="./assets/badges/v0.svg" alt="v0"> <img src="./assets/badges/bolt-new.svg" alt="Bolt.new"> <img src="./assets/badges/lovable.svg" alt="Lovable"> <img src="./assets/badges/unity-mcp.svg" alt="Unity MCP"> <img src="./assets/badges/blender-mcp.svg" alt="Blender MCP"> <img src="./assets/badges/ollama.svg" alt="Ollama"> |
+| 調べもの・まとめ | <img src="./assets/badges/notebooklm.svg" alt="NotebookLM"> <img src="./assets/badges/notion-ai.svg" alt="Notion AI"> <img src="./assets/badges/perplexity.svg" alt="Perplexity"> <img src="./assets/badges/felo.svg" alt="Felo"> <img src="./assets/badges/genspark.svg" alt="Genspark"> <img src="./assets/badges/deepl.svg" alt="DeepL"> <img src="./assets/badges/grok.svg" alt="Grok"> <img src="./assets/badges/deepseek.svg" alt="DeepSeek"> |
+| 業務 | <img src="./assets/badges/microsoft-365-copilot.svg" alt="Microsoft 365 Copilot"> <img src="./assets/badges/microsoft-copilot.svg" alt="Microsoft Copilot"> <img src="./assets/badges/copilot-studio.svg" alt="Copilot Studio"> <img src="./assets/badges/azure-openai.svg" alt="Azure OpenAI"> <img src="./assets/badges/dify.svg" alt="Dify"> <img src="./assets/badges/openrouter.svg" alt="OpenRouter"> |
+| 資料・デザイン | <img src="./assets/badges/canva-ai.svg" alt="Canva AI"> <img src="./assets/badges/gamma.svg" alt="Gamma"> <img src="./assets/badges/napkin-ai.svg" alt="Napkin AI"> <img src="./assets/badges/adobe-firefly.svg" alt="Adobe Firefly"> <img src="./assets/badges/figma-ai.svg" alt="Figma AI"> |
+| 画像・3D | <img src="./assets/badges/nano-banana.svg" alt="Nano Banana"> <img src="./assets/badges/midjourney.svg" alt="Midjourney"> <img src="./assets/badges/tripo.svg" alt="Tripo"> |
+| 動画 | <img src="./assets/badges/sora.svg" alt="Sora"> <img src="./assets/badges/veo.svg" alt="Veo"> <img src="./assets/badges/runway.svg" alt="Runway"> <img src="./assets/badges/kling.svg" alt="Kling"> <img src="./assets/badges/hailuo.svg" alt="Hailuo"> <img src="./assets/badges/capcut.svg" alt="CapCut"> <img src="./assets/badges/vrew.svg" alt="Vrew"> |
+| 音声・音楽 | <img src="./assets/badges/suno.svg" alt="Suno"> <img src="./assets/badges/elevenlabs.svg" alt="ElevenLabs"> <img src="./assets/badges/voicevox.svg" alt="VOICEVOX"> <img src="./assets/badges/whisper.svg" alt="Whisper"> |
 
 | 分野 | よく使うもの |
 |---|---|
@@ -136,9 +136,9 @@ flowchart TB
       <h3>🤖 <a href="https://shoyo-maya-bot.github.io/ai-engineer-roadmap/">AI エンジニア学習ロードマップ</a></h3>
       <p>Python・数学・機械学習から LLM・RAG・エージェント・安全と評価・運用まで、<b>13 部・52 章</b>。どの章にも演習・解答・理解度チェック。ローカル LLM で無料のまま最後まで進められます。</p>
       <p>
-        <img src="https://img.shields.io/badge/13%E9%83%A8-52%E7%AB%A0-8b5cf6?style=flat-square" alt="13部52章">
-        <img src="https://img.shields.io/badge/Python-3.12-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
-        <img src="https://img.shields.io/badge/MkDocs-Material-526CFE?style=flat-square&logo=materialformkdocs&logoColor=white" alt="MkDocs">
+        <img src="./assets/badges/13-52-flat-square.svg" alt="13部52章">
+        <img src="./assets/badges/python-3-12-flat-square.svg" alt="Python">
+        <img src="./assets/badges/mkdocs-material-flat-square.svg" alt="MkDocs">
       </p>
       <a href="https://github.com/shoyo-maya-bot/ai-engineer-roadmap">リポジトリ</a> ・ <a href="https://shoyo-maya-bot.github.io/ai-engineer-roadmap/">サイトを開く</a>
     </td>
@@ -146,9 +146,9 @@ flowchart TB
       <h3>☕ <a href="https://shoyo-maya-bot.github.io/learning-materials/">開発者向け教材</a></h3>
       <p>Java 17・Spring Boot・MyBatis・API・設計品質・クラウド・案件担当まで、<b>全 73 章と付録 3</b>。dev-environment のサンプルアプリを直しながら学びます。</p>
       <p>
-        <img src="https://img.shields.io/badge/73%E7%AB%A0-%E4%BB%98%E9%8C%B23-10b981?style=flat-square" alt="73章">
-        <img src="https://img.shields.io/badge/Java-17-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="Java">
-        <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white" alt="Spring Boot">
+        <img src="./assets/badges/73-3-flat-square.svg" alt="73章">
+        <img src="./assets/badges/java-17-flat-square.svg" alt="Java">
+        <img src="./assets/badges/spring-boot-flat-square.svg" alt="Spring Boot">
       </p>
       <a href="https://github.com/shoyo-maya-bot/learning-materials">リポジトリ</a> ・ <a href="https://shoyo-maya-bot.github.io/learning-materials/">サイトを開く</a>
     </td>
