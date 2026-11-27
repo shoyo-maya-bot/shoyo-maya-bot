@@ -32,6 +32,7 @@ motto:     "AI の出力は下書き。仕上げは検査で守る"
 - 🧰 **設計書 → Markdown → レビュー → 実装 → テスト** を AI と回すツールを、汎用版として公開しています
 - 📚 AI エンジニア向けと業務開発向けの **教材** を、演習とテスト付きで書いています
 - 🎮 クラウドや資格の勉強を **ブラウザゲーム** にしています
+- 🔧 セキュリティの CLI・ブラウザの中で動く AI など、**種類の違う小さな道具** も作っています
 
 ---
 
@@ -58,8 +59,8 @@ motto:     "AI の出力は下書き。仕上げは検査で守る"
 | 分野 | よく使うもの |
 |---|---|
 | 言語 | Python 3.12 / Java 17 + Spring Boot / TypeScript |
-| AI | Claude Code と GitHub Copilot で作り、Codex（codex-plugin-cc）でレビュー（別の AI どうしで相互レビュー）・MCP（Unity / Blender）・Ollama（ローカル LLM）・RAG |
-| インフラ | Docker Compose（ローカル）・Terraform（AWS / Azure）・GitHub Actions・GitHub Pages・Cloudflare Workers |
+| AI | Claude Code と GitHub Copilot で作り、Codex（codex-plugin-cc）でレビュー（別の AI どうしで相互レビュー）・MCP（Unity / Blender）・Ollama（ローカル LLM）・RAG・transformers.js（ブラウザ内で動く埋め込みモデル） |
+| インフラ | Docker Compose（ローカル）・Terraform（AWS / Azure）・GitHub Actions・GitHub Pages・Cloudflare Workers + D1・Chrome 拡張（MV3） |
 | 品質 | pytest / JUnit・ruff・bandit・pip-audit・CodeQL・gitleaks・依存のハッシュ固定 |
 
 ---
@@ -162,9 +163,18 @@ flowchart TB
 | | 作品 | 内容 |
 |---|---|---|
 | ☁️ | [**クラウド設計クエスト**](https://shoyo-maya-bot.github.io/cloud-quest/) | AWS と Azure のサービス対応と構成設計を、ブラウザで遊びながら覚える |
-| 📝 | [**合格マークシート**](https://shoyo-maya-bot.github.io/goukaku-marksheet/) | AWS 認定（SAA・AI 系）と応用情報の学習サイト。問題 565 問・図解・模擬試験 |
+| 📝 | [**合格マークシート**](https://shoyo-maya-bot.github.io/goukaku-marksheet/) | AWS 認定（SAA・AI 系）・Google の生成 AI リーダー・生成 AI パスポート・応用情報の学習サイト。6 資格・問題 1,629 問・図解・模擬試験 |
 | 🔍 | [**零課事件簿**](https://shoyo-maya-bot.github.io/reika-jikenbo/) | 毎日の小謎と事件ファイルで遊ぶ、謎解きミステリーサイト |
-| 🖋️ | [**押印上等!!**](https://oin-joutou.hanko-dojo.workers.dev/) | 定時まで 90 秒、降ってくる書類をハンコでさばく決裁アクション |
+| 🖋️ | [**押印上等!!**](https://oin-joutou.hanko-dojo.workers.dev/) | 定時まで 90 秒、降ってくる書類をハンコでさばく決裁アクション。全国ランキングつき |
+
+---
+
+## 🔧 小さな道具
+
+| | 道具 | 内容 |
+|---|---|---|
+| 🔐 | [**doc-secret-scan**](https://github.com/shoyo-maya-bot/doc-secret-scan) | Excel・Word・PowerPoint に紛れたパスワード・API キー・個人情報を、隠しシートやコメントまで開いて見つける CLI。値は伏せ字で出し、SARIF で GitHub の code scanning に載せられる |
+| 🧭 | [**読書海図 Reading Map**](https://github.com/shoyo-maya-bot/reading-map) | 読んだ技術記事をブラウザの中の AI で分類し、テーマを島にした学習マップにする Chrome 拡張。データは端末の外に出さない |
 
 ---
 
