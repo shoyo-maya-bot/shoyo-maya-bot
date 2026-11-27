@@ -60,7 +60,7 @@ motto:     "AI の出力は下書き。仕上げは検査で守る"
 |---|---|
 | 言語 | Python 3.12 / Java 17 + Spring Boot / TypeScript |
 | AI | Claude Code と GitHub Copilot で作り、Codex（codex-plugin-cc）でレビュー（別の AI どうしで相互レビュー）・MCP（Unity / Blender）・Ollama（ローカル LLM）・RAG・transformers.js（ブラウザ内で動く埋め込みモデル） |
-| インフラ | Docker Compose（ローカル）・Terraform（AWS / Azure）・GitHub Actions・GitHub Pages・Cloudflare Workers + D1・Chrome 拡張（MV3） |
+| インフラ | Docker Compose（ローカル）・Terraform（AWS / Azure）・GitHub Actions・GitHub Pages・Cloudflare Workers + D1・Chrome 拡張（MV3）・PWA・Leaflet（地図） |
 | 品質 | pytest / JUnit・ruff・bandit・pip-audit・CodeQL・gitleaks・依存のハッシュ固定 |
 
 ---
@@ -165,6 +165,7 @@ flowchart TB
 | ☁️ | [**クラウド設計クエスト**](https://shoyo-maya-bot.github.io/cloud-quest/) | AWS と Azure のサービス対応と構成設計を、ブラウザで遊びながら覚える |
 | 📝 | [**合格マークシート**](https://shoyo-maya-bot.github.io/goukaku-marksheet/) | AWS 認定（SAA・AI 系）・Google の生成 AI リーダー・生成 AI パスポート・応用情報の学習サイト。6 資格・問題 1,629 問・図解・模擬試験 |
 | 🔍 | [**零課事件簿**](https://shoyo-maya-bot.github.io/reika-jikenbo/) | 毎日の小謎と事件ファイルで遊ぶ、謎解きミステリーサイト |
+| ⏰ | [**今だ！一問**](https://shoyo-maya-bot.github.io/ichimon-real/) | 1 日 1 回、ランダムな時刻の「今だ！」から 10 分以内に資格の問題を 1 問だけ解くスマホ向け PWA。友達と同じ時刻・同じ問題で勝負 |
 | 🖋️ | [**押印上等!!**](https://oin-joutou.hanko-dojo.workers.dev/) | 定時まで 90 秒、降ってくる書類をハンコでさばく決裁アクション。全国ランキングつき |
 
 ---
@@ -174,6 +175,7 @@ flowchart TB
 | | 道具 | 内容 |
 |---|---|---|
 | 🔐 | [**doc-secret-scan**](https://github.com/shoyo-maya-bot/doc-secret-scan) | Excel・Word・PowerPoint に紛れたパスワード・API キー・個人情報を、隠しシートやコメントまで開いて見つける CLI。値は伏せ字で出し、SARIF で GitHub の code scanning に載せられる |
+| 🌙 | [**終電ウォーク**](https://shoyo-maya-bot.github.io/shuden-walk/) | 終電を逃した夜の帰り道を地図で下見。経路の近くの指定緊急避難場所（国土地理院のオープンデータ）を目印に、帰宅困難の備えをゲーム感覚で |
 | 🧭 | [**読書海図 Reading Map**](https://github.com/shoyo-maya-bot/reading-map) | 読んだ技術記事をブラウザの中の AI で分類し、テーマを島にした学習マップにする Chrome 拡張。データは端末の外に出さない |
 
 ---
